@@ -20,7 +20,7 @@ function draw() {
   if(frameCount%50===0){
     snows.push(new Snow(random(0,1200),0,10,10));
   }
-  for(var i=0;i>snows.length;i++){
+  for(var i=0;i<snows.length;i++){
     snows[i].display();
   }
   drawSprites();
